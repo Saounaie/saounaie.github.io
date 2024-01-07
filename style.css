@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-banner{
+    background-color: #9146ff;
+    padding: 30px;
+}
+
+.top-content{
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.top-content img{
+    width: 10%;
+}
+
+/* MID */
+
+.mid-content{
+    padding: 30px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.mid-content-text{
+    width: 50%;
+    text-align: center;
+    font-size: 23px;
+}
+
+.mid-content-text p{
+    margin-bottom: 15px;
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn-container a{
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 30px;
+}
+
+.twitchBtn{
+    background-color: #4622aa;
+    color: white;
+}
+
+.discoverBtn{
+    background-color: white;
+    color: #111;
+}
+
+
+
+/* BOTTOM */
+
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.title-wrapper{
+    text-align: center;
+}
+
+.title-wrapper h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.card{
+    text-align: center;
+    padding: 40px;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 3px 6px -4px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    transition: all .3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card img{
+    width: 20%;
+    margin-bottom: 30px;
+    border-radius: 99px;
+}
+
+
+.card h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.card h3{
+    font-size: 30px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.card span{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.card .btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-wrapper a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #9146ff;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+
